@@ -67,6 +67,9 @@ button {
     border: none;
     background-color: white;
 }
+button:hover{
+    cursor: pointer;
+}
 .search-input{
     border: none;
     width: 100px;
@@ -80,4 +83,26 @@ button {
 }
 .menu img {
     width: 60px; 
+}
+/* label[for="toggle-button"]{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+label [for="toggle-button"]::after{
+    content: "includes all fees, before taxes";
+    position: absolute;
+} */
+#items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#items-container img {
+    width: 450px;
+    height: 500px;
 }
